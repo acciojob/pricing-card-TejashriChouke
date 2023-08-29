@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+.pricing-card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* CSS for the Image */
+        .pricing-card img {
+            width: 100%;
+        }
+
+        /* CSS for the Title */
+        .pricing-card h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        /* CSS for Pricing Information */
+        .pricing-card p.price {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        /* CSS for Description */
+        .pricing-card p.description {
+            font-size: 14px;
+            color: #777;
+            margin: 10px 0;
+        }
+
+        /* CSS for Buy Now Button */
+        .pricing-card button {
+            padding: 10px 20px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
